@@ -9,7 +9,7 @@ app.use(express.static('dist'))
 // eslint-disable-next-line
 app.get('/health', (req, res) => { 
   // eslint-disable-next-line
-  console.log('testing a pr, and making sure it doesnt deploy...')
+  console.log('testing a pr to see if it skips making a release')
 })
 
 app.listen(PORT, () => {
